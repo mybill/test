@@ -11,7 +11,6 @@ def read_centers():
 		for j in xrange(size):
 			centers[cid][j] = float(cols[j+2])
 		cid += 1
-	fc.close()
 
 def run():
 	dist = np.zeros(K)
